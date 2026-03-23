@@ -1,7 +1,9 @@
 function calculateTax(amount){function calculateTax(amount){
   return amount * 10; // 
 }
-
+function convertToUpperCase(text){
+  text.toUpperCase(); //
+}
 
 
 
