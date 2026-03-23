@@ -1,3 +1,6 @@
+function calculateTax(amount){function calculateTax(amount){
+  return amount * 10; // 
+}
 
 
 
