@@ -4,9 +4,13 @@ function calculateTax(amount){function calculateTax(amount){
 function convertToUpperCase(text){
   text.toUpperCase(); //
 }
+function findMaximum(num1, num2){
+  if(num1 > num2){
+    console.log(num1); //
+  } else {
+    console.log(num2);
+  }
+}
 
 
 
-
-// This is required for the test to function properly  
-module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
